@@ -1,4 +1,4 @@
-package dev.qumara.client.mixin;
+package dev.qumara.client.hud;
 
 import net.minecraft.client.gui.hud.ClientBossBar;
 
