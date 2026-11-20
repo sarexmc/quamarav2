@@ -404,7 +404,7 @@ public class QumaraEntity extends HostileEntity implements GeoEntity {
     @Override public boolean isDisallowedInPeaceful() { return false; }
     @Override public boolean cannotDespawn() { return true; }
     @Override public boolean canImmediatelyDespawn(double distanceSquared) { return false; }
-    @Override protected void playAmbientSound() {}
+    @Override public void playAmbientSound() {}
     @Override public boolean isFireImmune() { return true; }
     @Override public Box getVisibilityBoundingBox() { return getBoundingBox().expand(11, 3, 11).stretch(0, 6, 0); }
     @Override protected SoundEvent getHurtSound(DamageSource source) { return ModSounds.HURT; }
